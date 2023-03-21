@@ -77,10 +77,10 @@ plt.show()
 
 
 combined_x = np.stack([test_image_flair, test_image_t1ce, test_image_t2], axis=3)
-#combined_x = combined_x[56:184, 56:184, 13:141]
-#test_mask = test_mask[56:184, 56:184, 13:141]
-combined_x = combined_x[88:152, 88:152, 45:109]
-test_mask = test_mask[88:152, 88:152, 45:109]
+combined_x = combined_x[56:184, 56:184, 13:141]
+test_mask = test_mask[56:184, 56:184, 13:141]
+#combined_x = combined_x[88:152, 88:152, 45:109]
+#test_mask = test_mask[88:152, 88:152, 45:109]
 
 if n_slice >= test_mask.shape[2]:
     n_slice = test_mask.shape[2] - 1
