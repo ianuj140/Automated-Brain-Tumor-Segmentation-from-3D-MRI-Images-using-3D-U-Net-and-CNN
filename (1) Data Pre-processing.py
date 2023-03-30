@@ -141,7 +141,7 @@ for img in range(len(t2_list)):
         
     temp_mask=nib.load(mask_list[img]).get_fdata()
     temp_mask=temp_mask.astype(np.uint8)
-    temp_mask[temp_mask==4] = 3  #Reassign mask values 4 to 3
+    temp_mask[temp_mask==4] = 3  
     #print(np.unique(temp_mask))
     
     
