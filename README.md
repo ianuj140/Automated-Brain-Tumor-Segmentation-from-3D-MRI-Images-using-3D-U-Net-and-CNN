@@ -1,7 +1,7 @@
 # Automated-Brain-Tumor-Segmentation-from-3D-MRI-Scans-using-a-Hybrid-Ensemble-of-U-Net-and-LinkNet-Convolution-Neural-Networks.
 
 
-***--Status:--*** 70% completed, ongoing...
+***_Status:_*** 70% completed, ongoing...
 
 # 
 
