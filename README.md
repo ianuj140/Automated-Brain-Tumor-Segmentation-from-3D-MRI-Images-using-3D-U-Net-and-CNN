@@ -1,4 +1,4 @@
-# Brain Tumor Image Segmentation form 3D MRI Scans Using U-Net Architecture.
+# Brain Tumor Image Segmentation from Multi-Modal 3D MRI Scans Using U-Net Architecture.
 
 
 ***_Status:_*** 70% completed, ongoing...
