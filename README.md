@@ -11,10 +11,6 @@
 ![unet_homepage](https://user-images.githubusercontent.com/111432785/232811900-b5af8ccc-de49-4ee9-8aba-bf79dc165ff2.png)
 
 
-#
-
-![Screenshot 2023-04-18 223907](https://user-images.githubusercontent.com/111432785/232854558-58fc9eb9-62b6-4d95-997f-22548a3ee373.png)
-907.png
 
 #
 
