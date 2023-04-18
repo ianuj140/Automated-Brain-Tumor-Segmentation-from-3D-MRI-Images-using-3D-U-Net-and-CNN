@@ -15,17 +15,9 @@
 
 
 
-# 
+![unet_mid](https://user-images.githubusercontent.com/111432785/232812867-f83a3bb5-7e6d-4156-b3b5-bb81971dab5d.png)
+
+#
 
 
-
-
-
-
-# 
-
-![wappsample](https://user-images.githubusercontent.com/111432785/228903412-33601235-9175-4bc0-86d5-ca08755f2341.png)
-
-# 
-
-![1000_F_388405670_0CyoZYAqHUGJkwxWxq6FquVGjEv4UJ5K-overlay (1)](https://user-images.githubusercontent.com/111432785/230015948-96768d7e-8fdf-4072-887f-2a19dcd2e0e5.jpg)
+![unet_op](https://user-images.githubusercontent.com/111432785/232812909-66cdf52e-23d7-4efa-86ff-1023e8680984.png)
