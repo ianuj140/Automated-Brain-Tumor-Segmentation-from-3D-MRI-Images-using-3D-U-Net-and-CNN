@@ -14,12 +14,11 @@
 #
 
 
-![unet_mid](https://user-images.githubusercontent.com/111432785/232812264-099e6956-8a49-470e-bf78-833110768c3d.png)
 
 # 
 
 
-![initial1](https://user-images.githubusercontent.com/111432785/229051784-be8f4ce2-4df2-4ae8-ab20-f44cf6220248.png)
+
 
 
 
