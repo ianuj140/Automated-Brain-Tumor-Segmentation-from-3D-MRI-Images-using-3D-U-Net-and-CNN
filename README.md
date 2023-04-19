@@ -4,9 +4,10 @@
 ***_Status:_*** Almost completed.
 
 
-#![home1x](https://user-images.githubusercontent.com/111432785/233044985-79dfe8c6-f196-47dd-a70e-2dcbbd23756f.png)
+# 
+![home1x](https://user-images.githubusercontent.com/111432785/233132935-f1d11396-6404-4603-b2b0-b764651dcb9f.png)
 
 
+# 
 
-#
-![finalx](https://user-images.githubusercontent.com/111432785/233045040-2e4ba746-0464-458f-aaf4-be27ffaac695.png)
+![home2x](https://user-images.githubusercontent.com/111432785/233132958-6f5b9879-1b30-4649-b1f6-2c5832e61528.png)
