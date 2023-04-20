@@ -1,7 +1,12 @@
 # Brain Tumor Image Segmentation from Multi-Modal 3D MRI Scans Using U-Net Architecture.
 
 
-***_Status:_*** Almost completed :).  Yet to add a detailed README description... 
+***_Status:_*** The project is on the edge of completion, but a detailed README description still needs to be added.
+
+
+
+
+
 
 
 
