@@ -46,8 +46,7 @@ import random
 
 n_slice = random.randint(0,test_mask.shape[2]) 
 
-while n_slice >= test_mask.shape[2]:
-    n_slice = random.randint(0, test_mask.shape[2])
+
 
 print(n_slice)
 
