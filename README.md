@@ -3,7 +3,7 @@
 
 ***_Status:_*** The project has been wrapped up, but a meticulously detailed README description still needs to be added.
 
-#
+
 ![poiu](https://user-images.githubusercontent.com/111432785/233703472-e8d2cbd4-0edc-4d27-9750-b8357253d8c1.png)
 
 # 
