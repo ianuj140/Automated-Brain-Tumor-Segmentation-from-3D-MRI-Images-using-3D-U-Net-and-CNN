@@ -3,7 +3,8 @@
 
 ***_Status:_*** The project is on the edge of completion, but a detailed README description still needs to be added.
 
-![Screenshot 2023-04-21 115911](https://user-images.githubusercontent.com/111432785/233558558-c1e6e559-02d2-40cf-b9cc-b1e0d06615db.png)
 
-# 
-![Screenshot 2023-04-21 120006](https://user-images.githubusercontent.com/111432785/233558575-6adb9605-dbfb-402d-a17c-9565d9b84f4a.png)
+![Uploading Screenshot 2023-04-21 152834.png…]()
+
+#
+![image](https://user-images.githubusercontent.com/111432785/233608593-06335c51-1ccf-400c-a5d1-3a2d18bf45ee.png)
