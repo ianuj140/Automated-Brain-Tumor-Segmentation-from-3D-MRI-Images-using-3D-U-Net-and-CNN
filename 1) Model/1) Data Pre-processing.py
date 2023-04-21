@@ -32,7 +32,7 @@ test_image_t2=nib.load(TRAIN_DATASET_PATH + 'BraTS20_Training_075/BraTS20_Traini
 test_image_t2=scaler.fit_transform(test_image_t2.reshape(-1, test_image_t2.shape[-1])).reshape(test_image_t2.shape)
 
 test_mask=nib.load(TRAIN_DATASET_PATH + 'BraTS20_Training_075/BraTS20_Training_075_seg.nii').get_fdata()
-test_mask=test_mask.astype(np.uint8)
+test_mask=test_mask.astype(np.uint16)
 
 
 
