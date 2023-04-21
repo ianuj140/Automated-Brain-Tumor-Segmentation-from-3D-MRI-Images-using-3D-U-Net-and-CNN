@@ -3,8 +3,8 @@
 
 ***_Status:_*** The project has been wrapped up, but a meticulously detailed README description still needs to be added.
 
+#
+![poiu](https://user-images.githubusercontent.com/111432785/233703472-e8d2cbd4-0edc-4d27-9750-b8357253d8c1.png)
 
 # 
-![poiu (1)](https://user-images.githubusercontent.com/111432785/233703112-db4e8a84-1004-464d-9a29-79b4895b278c.jpeg)
-#
-![poiu1 (1)](https://user-images.githubusercontent.com/111432785/233703130-370e0af4-9509-404a-8a6e-1f2c7846bcd6.jpeg)
+![poiu1](https://user-images.githubusercontent.com/111432785/233703450-28d6e226-7cf5-474d-bcb1-1d14f59cce5d.png)
