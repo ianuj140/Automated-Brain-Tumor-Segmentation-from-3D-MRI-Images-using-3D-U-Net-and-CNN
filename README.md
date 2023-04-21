@@ -3,8 +3,6 @@
 
 ***_Status:_*** The project is on the edge of completion, but a detailed README description still needs to be added.
 #
-
-
 ![Screenshot 2023-04-21 115911](https://user-images.githubusercontent.com/111432785/233558558-c1e6e559-02d2-40cf-b9cc-b1e0d06615db.png)
 
 # 
