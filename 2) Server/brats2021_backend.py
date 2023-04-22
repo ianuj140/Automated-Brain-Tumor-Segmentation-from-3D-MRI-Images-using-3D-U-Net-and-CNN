@@ -169,6 +169,7 @@ def main():
 
         if fig is not None:
             st.pyplot(fig)
-               
+       
+
 if __name__ == "__main__":
     main()
