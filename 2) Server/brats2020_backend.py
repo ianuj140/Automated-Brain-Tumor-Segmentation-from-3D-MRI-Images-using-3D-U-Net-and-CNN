@@ -30,7 +30,7 @@ def main():
     )
     
     
-    col1, col2, col3= st.columns([18,1.5,19])
+    col1, col2, col3= st.columns([18,1.0,19])
     with col1:
         st.write(" ")
         st.write(" ")
@@ -58,10 +58,11 @@ def main():
         flair_file = st.file_uploader("Choose a FLAIR NIfTI file")
         
     
+
         st.markdown("""
             <style>
             div.stButton > button:first-child {
-            background-color: #000000;
+            background-color: #A91B60;
             margin: 0 auto;
             font-size: 50px !important;
             font-weight:bold;
@@ -69,36 +70,35 @@ def main():
             
             color: #ffffff;
             display: block;
-            width: 340px;
-            height: 90px;
-            border: 2px solid #000073;
-            border-color: #7f00ff;
-            box-shadow: 0 0 15px #7f00ff, 0 0 15px #7f00ff, 0 0 15px #7f00ff, 0 0 15px #7f00ff;
+            width: 270px;
+            height: 80px;
+            border: 2px solid #A91B60;
+            border-color: #A91B60;
+
             text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
             box-sizing: border-box;
-    
-    
+
+
             }
-    
+
             div.stButton > button:hover {
-                background-color: #000000;
+                background-color: #A91B60;
                 margin: 0 auto;
                 font-family:Verdana;
-                border-color: #039aff;
-                color: #00BFFF;
-    
-                text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5); 
-                box-shadow: 0 0 20px #039aff, 0 0 10px #039aff, 0 0 20px #039aff, 0 0 20px #039aff;
-    
+                border-color: #A91B60;
+                color: #ffffff;
+
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+
                 font-weight:bold;
                 display: block;
-                width: 350px;
-                height: 95px;
-                border: 3px solid #039aff;
+                width: 290px;
+                height: 85px;
+                border: 3px solid #A91B60;
                 box-sizing: border-box;
                 font-size: 40px;
             }
-            """, unsafe_allow_html=True)  
+            """, unsafe_allow_html=True)    
 
 
         if st.button("View Segmentation Maps"):
@@ -118,7 +118,13 @@ def main():
                     parent_directory = r"D:\pfm\Python_files\archive1\BraTS2020_TrainingData\MICCAI_BraTS2020_TrainingData_1"
                     mask_path = os.path.join(parent_directory, f"BraTS20_Training_{image_number}", f"BraTS20_Training_{image_number}_seg.nii")
             
-             
+                    with open(t1ce_path, "wb") as f:
+                        f.write(t1ce_file.getbuffer())
+                    with open(t2_path, "wb") as f:
+                        f.write(t2_file.getbuffer())
+                    with open(flair_path, "wb") as f:
+                        f.write(flair_file.getbuffer())
+            
                     t1ce_img = nib.load(t1ce_path).get_fdata()
                     t2_img = nib.load(t2_path).get_fdata()
                     flair_img = nib.load(flair_path).get_fdata()
@@ -137,6 +143,7 @@ def main():
     with col3:
         st.write(" ")
         st.write(" ")
+    
         st.markdown(
             """
             <div style='background-color:#000000; 
@@ -145,8 +152,7 @@ def main():
             '>
                 <p style='font-weight:bold; 
                 color:#87CEEB; font-size:33px; font-family:Verdana; text-align:center;'>
-                    Output Segmentation Maps:
-                    </p>
+                Output Segmentation Maps (A Random 2D Slice): </p>
                 <div style='margin-top:20px;'>
                     
             </div>
@@ -155,11 +161,10 @@ def main():
             unsafe_allow_html=True
         )
         empty_space = st.empty()
-        empty_space.markdown("<div style='height:66.5px;'></div>", unsafe_allow_html=True)
+        empty_space.markdown("<div style='height:30px;'></div>", unsafe_allow_html=True)
 
         if fig is not None:
             st.pyplot(fig)
        
-    
 if __name__ == "__main__":
     main()
