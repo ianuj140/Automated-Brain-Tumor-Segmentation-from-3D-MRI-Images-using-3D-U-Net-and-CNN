@@ -105,12 +105,7 @@ def main():
                 mask_array = nib.load(mask_path).get_fdata()  
                 mask_img = mask_array.astype(np.uint8)
             
-            with open(t1ce_path, "wb") as f:
-                f.write(t1ce_file.getbuffer())
-            with open(t2_path, "wb") as f:
-                f.write(t2_file.getbuffer())
-            with open(flair_path, "wb") as f:
-                f.write(flair_file.getbuffer())
+
         
             t1ce_img = nib.load(t1ce_path).get_fdata()
             t2_img = nib.load(t2_path).get_fdata()
