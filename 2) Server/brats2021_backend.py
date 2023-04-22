@@ -128,13 +128,7 @@ def main():
                 parent_directory = r"D:\brats2021\BraTS2021_Training_Data"
                 mask_path = os.path.join(parent_directory, f"BraTS2021_{image_number}", f"BraTS2021_{image_number}_seg.nii.gz")
         
-                with open(t1ce_path, "wb") as f:
-                    f.write(t1ce_file.getbuffer())
-                with open(t2_path, "wb") as f:
-                    f.write(t2_file.getbuffer())
-                with open(flair_path, "wb") as f:
-                    f.write(flair_file.getbuffer())
-        
+              
                 t1ce_img = nib.load(t1ce_path).get_fdata()
                 t2_img = nib.load(t2_path).get_fdata()
                 flair_img = nib.load(flair_path).get_fdata()
