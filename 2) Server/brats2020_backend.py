@@ -118,13 +118,7 @@ def main():
                     parent_directory = r"D:\pfm\Python_files\archive1\BraTS2020_TrainingData\MICCAI_BraTS2020_TrainingData_1"
                     mask_path = os.path.join(parent_directory, f"BraTS20_Training_{image_number}", f"BraTS20_Training_{image_number}_seg.nii")
             
-                    with open(t1ce_path, "wb") as f:
-                        f.write(t1ce_file.getbuffer())
-                    with open(t2_path, "wb") as f:
-                        f.write(t2_file.getbuffer())
-                    with open(flair_path, "wb") as f:
-                        f.write(flair_file.getbuffer())
-            
+             
                     t1ce_img = nib.load(t1ce_path).get_fdata()
                     t2_img = nib.load(t2_path).get_fdata()
                     flair_img = nib.load(flair_path).get_fdata()
@@ -166,5 +160,6 @@ def main():
         if fig is not None:
             st.pyplot(fig)
        
+    
 if __name__ == "__main__":
     main()
