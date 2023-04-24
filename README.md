@@ -1,4 +1,4 @@
-# Automatic Brain Tumor Segmentation from Multi-Modal 3D MRI Scans Using U-Net Architecture (with GUI).
+# Automatic Brain Tumor Image Segmentation from Multi-Modal 3D MRI Scans Using U-Net Architecture (with GUI).
 
 
 **Status:**   _The project has been wrapped up, but a meticulously detailed README description still needs to be added._
