@@ -5,5 +5,6 @@
 
 
 
-![plot1y](https://user-images.githubusercontent.com/111432785/234022661-d6e2abab-c5cf-4d70-9bdd-d54585c2d3d0.png)
-![plot2y](https://user-images.githubusercontent.com/111432785/234022737-db71506e-0fc6-4447-a6c4-bc405c44cc4a.png)
+
+![plot1y](https://user-images.githubusercontent.com/111432785/234045376-99493ee3-bc3a-41f7-8795-300778fff09c.png)
+![plot3y](https://user-images.githubusercontent.com/111432785/234045394-e698011d-3185-4e64-9ce7-fa639704329e.png)
