@@ -5,5 +5,5 @@
 
 
 
-![iop1](https://user-images.githubusercontent.com/111432785/233770557-22ec44be-b4cc-4311-b847-10eed15a2d66.png)
-![iop2](https://user-images.githubusercontent.com/111432785/233770539-be27f21a-72a1-4497-8047-9acdaf1f606a.png)
+![plot1y](https://user-images.githubusercontent.com/111432785/233968909-51cbd31d-8cae-48bd-a1c0-4fd42c4b01ff.png)
+![plot2y](https://user-images.githubusercontent.com/111432785/233968880-c99a105c-cf4f-408a-a24a-fb2cc21d2ebe.png)
