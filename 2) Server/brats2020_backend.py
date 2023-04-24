@@ -18,7 +18,7 @@ def main():
         box-shadow: 0 0 25px #000073, 0 0 25px #000073, 0 0  25px #000073, 0 0 25px #000073;
         '>
             <p style='font-weight:bold; 
-            color:#FFFF00  ; font-size:36px; font-family:Verdana; text-align:center'>
+            color:#039aff  ; font-size:36px; font-family:Verdana; text-align:center'>
             You are currently working on the Brats2020 dataset.
             </p>
             <div style='margin-top:20px;'>
@@ -42,7 +42,7 @@ def main():
             box-shadow: 0 0 25px #000073, 0 0 25px #000073, 0 0  25px #000073, 0 0 25px #000073;
             '>
                 <p style='font-weight:bold; 
-                color:#87CEEB;text-align:center ; font-size:33px; font-family:Verdana;'>Upload 3D MRI Scans of Patient below:   </p>
+                color:#FFFF00;text-align:center ; font-size:33px; font-family:Verdana;'>Upload 3D MRI Scans of Patient below:   </p>
                 <div style='margin-top:20px;'>
                     
             </div>
@@ -62,7 +62,7 @@ def main():
         st.markdown("""
             <style>
             div.stButton > button:first-child {
-            background-color: #A91B60;
+            background-color: #0000ff;
             margin: 0 auto;
             font-size: 50px !important;
             font-weight:bold;
@@ -72,8 +72,8 @@ def main():
             display: block;
             width: 270px;
             height: 80px;
-            border: 2px solid #A91B60;
-            border-color: #A91B60;
+            border: 2px solid #0000ff;
+            border-color: #0000ff;
 
             text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
             box-sizing: border-box;
@@ -82,10 +82,10 @@ def main():
             }
 
             div.stButton > button:hover {
-                background-color: #A91B60;
+                background-color: #0000ff;
                 margin: 0 auto;
                 font-family:Verdana;
-                border-color: #A91B60;
+                border-color: #0000ff;
                 color: #ffffff;
 
                 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
@@ -94,7 +94,7 @@ def main():
                 display: block;
                 width: 290px;
                 height: 85px;
-                border: 3px solid #A91B60;
+                border: 3px solid #0000ff;
                 box-sizing: border-box;
                 font-size: 40px;
             }
@@ -136,7 +136,8 @@ def main():
             
                     cropped_img = preprocess(t1ce_img, t2_img, flair_img)
                     prediction = predict_function(cropped_img)
-                    fig = plot_slices(cropped_img, mask_img, prediction, 60)
+                    random_slice= np.random.randint(0,127)
+                    fig = plot_slices(cropped_img, mask_img, prediction,60)
                     st.write(" ")
                     st.write(" ")
 
@@ -151,7 +152,7 @@ def main():
             box-shadow: 0 0 20px #000073, 0 0 25px #000073, 0 0  25px #000073, 0 0 25px #000073;
             '>
                 <p style='font-weight:bold; 
-                color:#87CEEB; font-size:33px; font-family:Verdana; text-align:center;'>
+                color:#FFFF00; font-size:30px; font-family:Verdana; text-align:center;'>
                 Output Segmentation Maps (A Random 2D Slice): </p>
                 <div style='margin-top:20px;'>
                     

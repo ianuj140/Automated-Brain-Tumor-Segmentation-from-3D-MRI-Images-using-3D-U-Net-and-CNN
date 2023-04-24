@@ -66,10 +66,11 @@ def main():
         flair_file = st.file_uploader("Choose a FLAIR NIfTI file")
         
 
+
         st.markdown("""
             <style>
             div.stButton > button:first-child {
-            background-color: #A91B60;
+            background-color: #0000ff;
             margin: 0 auto;
             font-size: 50px !important;
             font-weight:bold;
@@ -79,8 +80,8 @@ def main():
             display: block;
             width: 270px;
             height: 80px;
-            border: 2px solid #A91B60;
-            border-color: #A91B60;
+            border: 2px solid #0000ff;
+            border-color: #0000ff;
 
             text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
             box-sizing: border-box;
@@ -89,10 +90,10 @@ def main():
             }
 
             div.stButton > button:hover {
-                background-color: #A91B60;
+                background-color: #0000ff;
                 margin: 0 auto;
                 font-family:Verdana;
-                border-color: #A91B60;
+                border-color: #0000ff;
                 color: #ffffff;
 
                 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
@@ -101,11 +102,12 @@ def main():
                 display: block;
                 width: 290px;
                 height: 85px;
-                border: 3px solid #A91B60;
+                border: 3px solid #0000ff;
                 box-sizing: border-box;
                 font-size: 40px;
             }
-            """, unsafe_allow_html=True)    
+            """, unsafe_allow_html=True) 
+   
 
         st.write(" ")
         st.write(" ")
@@ -154,6 +156,7 @@ def main():
     with col3:
         st.write(" ")
         st.write(" ")
+    
         st.markdown(
             """
             <div style='background-color:#000000; 
@@ -161,9 +164,8 @@ def main():
             box-shadow: 0 0 20px #000073, 0 0 25px #000073, 0 0  25px #000073, 0 0 25px #000073;
             '>
                 <p style='font-weight:bold; 
-                color:#87CEEB  ; font-size:33px; font-family:Verdana; text-align:center;'>
-                    Output Segmentation Maps (A Random 2D Slice):
-                    </p>
+                color:#FFFF00; font-size:30px; font-family:Verdana; text-align:center;'>
+                Output Segmentation Maps (A Random 2D Slice): </p>
                 <div style='margin-top:20px;'>
                     
             </div>
